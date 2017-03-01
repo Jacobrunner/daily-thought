@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+ <siteMapNode url="~/default.aspx" title="Home"  description="Home page" >
+    <siteMapNode url="~/about.aspx" title="About"  description="Talks about the site" />
+   <siteMapNode isVisible="false" url="~/article.aspx"  title="Article" description=" view a Specific article" />
+    <siteMapNode url="~/Author/default.aspx" title="Admin" description="Admin console">
+      <siteMapNode url="~/Author/login.aspx" title="login" description="log in console"/>
+      <siteMapNode url="~/Author/add-article.aspx" title="Add_A" description="Add a article"/>
+      <siteMapNode url="~/Author/articles.aspx" title="Edit Articles" description="edit article"/>
+      <siteMapNode isVisible="false" url="~/Author/edit-articles.aspx" title="Edit a Article" description="Actual article editor page"/>
+
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
