@@ -11,6 +11,7 @@
     <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
         <ItemTemplate>
             <h3><a href="article.aspx?id=<%#Eval("artid")%>"><%# Eval("headline") %></a></h3>
+            <img src="<%# Eval("imgPath") %>" alt=""<%# Eval("imgAlt") %>" />
             <h5><%# Eval("summary") %>  <%# Eval("postdate") %></h5>
         </ItemTemplate>
         <SeparatorTemplate>
