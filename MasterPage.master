@@ -23,7 +23,7 @@
                 <ul class="list-group">
                     <li class="list-group-item"><a href="/default.aspx">Home </a></li>
                     <li class="list-group-item"><a href="/Author/add-article.aspx">Add an article</a> </li>
-                    <li class="list-group-item"><a href="articles.aspx">articles</a> </li>
+                    <li class="list-group-item"><a href="/Author/articles.aspx">articles</a> </li>
                      <li class="list-group-item"><a href="/about.aspx">About Us</a> </li>
 
                 </ul>

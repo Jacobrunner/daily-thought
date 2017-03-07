@@ -7,7 +7,9 @@
       <siteMapNode url="~/Author/login.aspx" title="login" description="log in console"/>
       <siteMapNode url="~/Author/add-article.aspx" title="Add_A" description="Add a article"/>
       <siteMapNode url="~/Author/articles.aspx" title="Edit Articles" description="edit article"/>
-      <siteMapNode isVisible="false" url="~/Author/edit-articles.aspx" title="Edit a Article" description="Actual article editor page"/>
+      <siteMapNode isVisible="false" url="~/Author/edit-article.aspx" title="Edit a Article" description="Actual article editor page"/>
+      <siteMapNode isVisible="false" url="~/Author/Author-edit.aspx" title="Edit a Author" description="Actual author editor page"/>
+      <siteMapNode isVisible="false" url="~/Author/Category-edit.aspx" title="Edit a Category" description="Actual category editor page"/>
 
     </siteMapNode>
   </siteMapNode>
